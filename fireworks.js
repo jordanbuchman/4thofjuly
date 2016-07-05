@@ -1,4 +1,5 @@
 var easter_egg = new Konami(function(){
+ga('send', 'event', 'Secret', 'activate','konami');
 	var obama = $('<img src="obama.png" style="position:fixed;left:0;right:0;margin:auto;bottom:-550">')
 	$("body").append(obama);
 	obama.animate({"bottom": "-300"},2000,"linear",function(){
@@ -11,6 +12,7 @@ var easter_egg = new Konami(function(){
 
 
 $('body').click(function() {
+ga('send', 'event', 'Secret', 'activate','eagle');
    if (!$("#loaddiv").is(":visible") && !$("#annoydiv").is(":visible")){
    var top = $(window).height()*Math.random();
    var bottom = $(window).height() - top;
