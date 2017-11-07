@@ -1,3 +1,3 @@
 # Happy 4th of July!
 
-jordanbuchman.github.io/4thofjuly
+http://jordanbuchman.github.io/4thofjuly
